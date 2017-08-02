@@ -1,0 +1,88 @@
+exit,17.5,-.465,0,1
+south one zero one,17.5,-5.12,0,1
+south one zero five,16.2,-5.65,0,1
+south one zero six,8.7,.708,0,1
+south one zero seven,8.69,-1.08,0,1
+south one zero eight,1,-1.59,.75,-.77
+south exit two,1,1.65,0,1
+south one zero nine,-2.2,-4.02,0,1
+elevator,-4.8,-2.11,.999,0
+south exit three,-11.8,-4,0,1
+south one one one,-13.5,-2.36,0,1
+south one one three,-13.2,3.57,0,1
+stairs,-11,3,0,1
+south one one five,-13,7.37,0,1
+south one two zero,-9.53,13,0,1
+south one two three,-12.3,26,0,1
+south one two four,-9.06,25.9,0,1
+south one two five,-12.2,29.7,0,1
+south one six one,6.56,47.4,0,1
+south one six two,6.61,45.2,0,1
+south one six six,13.8,44.8,0,1
+south one six eight,17.3,44.8,0,1
+south one seven one,25,46.5,0,1
+south one seven two,25,44.8,0,1
+south one seven three,35.5,46.4,0,1
+south one seven four,35.3,44.2,0,1
+south one seven five,39.2,46.3,0,1
+south one seven eight,39.1,44.1,0,1
+south bathroom,-8,52.9,0,1
+south stairs two,-6.63,61.6,0,1
+south one four five,-12.4,65.2,0,1
+south exit four,-11,73,0,1
+south elevator two,-4.32,84.1,0,1
+south exit five,-4,68.5,0,1
+west stairs,-8.39,89.1,0,1
+west one zero one,-16,88.7,0,1
+west one zero five,-15,89,0,1
+west one zero seven,-12.3,89,0,1
+west one zero eight,-11.4,87.8,0,1
+west one one one,-5.27,89.5,0,1
+west one one three,-2.72,89.8,0,1
+west one one four,-2.55,88.5,0,1
+west one one five,1.2,90.1,0,1
+west one one seven,3.73,90.4,0,1
+west one one nine,7.69,90.8,0,1
+west one two one,10.2,91.1,0,1
+west one two three,14.2,91.5,0,1
+west exit one,17.7,96.5,0,1
+west one three one,21.8,93.1,0,1
+west one three two,21.7,91.9,0,1
+west one three three,24.3,93,0,1
+west one three five,28.1,92.9,0,1
+west one three six,28.1,91.7,0,1
+west one three seven,30.6,92.7,0,1
+west one three eight,33.2,91.5,0,1
+west one three nine,34.5,92.6,0,1
+west one four one,37,92.5,0,1
+west exit two,41.3,96.9,0,1
+west one six one,43.6,85.2,0,1
+west one seven one,43.2,92.3,0,1
+west one seven three,47.2,92.1,0,1
+west one seven five,49.6,92,0,1
+west one seven seven,53.6,91.9,0,1
+west one eight one,57.3,93.3,0,1
+west one eight three,57.1,91,0,1
+west elevator,55.1,89,0,1
+west bathroom,48.6,85.3,0,1
+west one eight nine,57.2,79.5,0,1
+west one nine zero,54.1,79.7,0,1
+north exit one,46.9,69.2,0,1
+north exit two,61.3,72.3,0,1
+north stairs one,62.1,68.9,0,1
+north one zero one,60.9,65.4,0,1
+north one one zero,52.8,56.1,0,1
+north one one one,56,53.8,0,1
+north one one three,55.8,49.8,0,1
+north one one eight,52,43.3,0,1
+north one two one,55.1,37.8,0,1
+north one two nine,54.7,24.6,0,1
+north one three zero,51.7,25.8,0,1
+north one three three,54,13.5,0,1
+north one three four,51.3,13.7,0,1
+north one three seven,56.1,1.33,0,1
+north stairs two,58.3,.134,0,1
+north bathroom,50.6,1,0,1
+north exit three,51.9,-5.25,0,1
+north one four one,56.8,.228,0,1
+north one four two,51.2,-5,0,1

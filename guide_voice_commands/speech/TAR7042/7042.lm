@@ -1,0 +1,113 @@
+Language model created by QuickLM on Thu Jul 13 11:52:05 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 22 sentences and 24 words
+
+\data\
+ngram 1=24
+ngram 2=44
+ngram 3=22
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.1206 BATHROOM -0.2218
+-2.1206 EIGHT -0.2218
+-2.1206 ELEVATOR -0.2218
+-2.1206 EXIT -0.2218
+-2.1206 FEEDBACK -0.2218
+-2.1206 FIVE -0.2218
+-2.1206 FOUR -0.2218
+-2.1206 GO -0.2218
+-2.1206 GROVI -0.2218
+-2.1206 NAVIGATE -0.2218
+-2.1206 NINE -0.2218
+-2.1206 NORTH -0.2218
+-2.1206 ONE -0.2218
+-2.1206 SEVEN -0.2218
+-2.1206 SIX -0.2218
+-2.1206 SOUTH -0.2218
+-2.1206 STAIRS -0.2218
+-2.1206 STOP -0.2218
+-2.1206 THREE -0.2218
+-2.1206 TWO -0.2218
+-2.1206 WEST -0.2218
+-2.1206 ZERO -0.2218
+
+\2-grams:
+-1.6435 <s> BATHROOM 0.0000
+-1.6435 <s> EIGHT 0.0000
+-1.6435 <s> ELEVATOR 0.0000
+-1.6435 <s> EXIT 0.0000
+-1.6435 <s> FEEDBACK 0.0000
+-1.6435 <s> FIVE 0.0000
+-1.6435 <s> FOUR 0.0000
+-1.6435 <s> GO 0.0000
+-1.6435 <s> GROVI 0.0000
+-1.6435 <s> NAVIGATE 0.0000
+-1.6435 <s> NINE 0.0000
+-1.6435 <s> NORTH 0.0000
+-1.6435 <s> ONE 0.0000
+-1.6435 <s> SEVEN 0.0000
+-1.6435 <s> SIX 0.0000
+-1.6435 <s> SOUTH 0.0000
+-1.6435 <s> STAIRS 0.0000
+-1.6435 <s> STOP 0.0000
+-1.6435 <s> THREE 0.0000
+-1.6435 <s> TWO 0.0000
+-1.6435 <s> WEST 0.0000
+-1.6435 <s> ZERO 0.0000
+-0.3010 BATHROOM </s> -0.3010
+-0.3010 EIGHT </s> -0.3010
+-0.3010 ELEVATOR </s> -0.3010
+-0.3010 EXIT </s> -0.3010
+-0.3010 FEEDBACK </s> -0.3010
+-0.3010 FIVE </s> -0.3010
+-0.3010 FOUR </s> -0.3010
+-0.3010 GO </s> -0.3010
+-0.3010 GROVI </s> -0.3010
+-0.3010 NAVIGATE </s> -0.3010
+-0.3010 NINE </s> -0.3010
+-0.3010 NORTH </s> -0.3010
+-0.3010 ONE </s> -0.3010
+-0.3010 SEVEN </s> -0.3010
+-0.3010 SIX </s> -0.3010
+-0.3010 SOUTH </s> -0.3010
+-0.3010 STAIRS </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 THREE </s> -0.3010
+-0.3010 TWO </s> -0.3010
+-0.3010 WEST </s> -0.3010
+-0.3010 ZERO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BATHROOM </s>
+-0.3010 <s> EIGHT </s>
+-0.3010 <s> ELEVATOR </s>
+-0.3010 <s> EXIT </s>
+-0.3010 <s> FEEDBACK </s>
+-0.3010 <s> FIVE </s>
+-0.3010 <s> FOUR </s>
+-0.3010 <s> GO </s>
+-0.3010 <s> GROVI </s>
+-0.3010 <s> NAVIGATE </s>
+-0.3010 <s> NINE </s>
+-0.3010 <s> NORTH </s>
+-0.3010 <s> ONE </s>
+-0.3010 <s> SEVEN </s>
+-0.3010 <s> SIX </s>
+-0.3010 <s> SOUTH </s>
+-0.3010 <s> STAIRS </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> THREE </s>
+-0.3010 <s> TWO </s>
+-0.3010 <s> WEST </s>
+-0.3010 <s> ZERO </s>
+
+\end\
