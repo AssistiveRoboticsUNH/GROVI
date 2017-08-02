@@ -1,0 +1,58 @@
+<!-- 
+	This is the full launch file for grovi, to start up everything in one go
+-->
+<launch>
+	<!-- Toggle options to be on/off for grovi -->
+	<arg name="navigation_feedback" value="true" />
+	<arg name="voice_commands" value="true" />
+	<arg name="face_recog" value="false" />
+	<arg name="ar_localization" value="false" />
+	<arg name="rviz" value="false" />
+	
+	<!-- minimum bringup -->
+	<include file="$(find turtlebot_bringup)/launch/minimal.launch" />
+	
+	<!-- amcl/3dsensor -->
+	<include file="$(find guide_navigation_feedback)/launch/grovi_navigation_feedback.launch" />
+	
+	<!-- soundplay -->
+	<include file="$(find sound_play)/soundplay_node.launch" />
+	
+	<!-- pocketsphinx -->
+	<include file="$(find guide_voice_commands)/launch/grovi_voice_commands.launch" />
+	
+	<!-- face recognition -->
+	<!-- TODO: add Face Recognition launch file -->
+	
+	<!-- ar track alvar -->
+	<!-- TODO: add AR_Localization launch file -->
+	
+	<!-- usb cam -->
+	<!-- TODO: add USB Cam launch file -->
+	
+	<!-- individual nodes -->
+	<group if="$(arg ar_localization)">
+		<!-- TODO: add AR_Localization node -->
+	</group>
+	
+	
+	<group if="$(arg face_recog)">
+		<!-- TODO: add Facial Recognition node -->
+	</group>
+	
+	<group if="$(arg voice_commands)">
+		<node pkg="guide_voice_commands" name="guide_voice_commands" type="guide_voice_commands" output="screen">
+			<param name="location_file" value="$(find guide_voice_commands)/locs.txt" />
+		</node>
+	</group>
+	
+	
+	<group if="$(arg navigation_feedback)">
+		<node pkg="guide_navigation_feedback" name="guide_navigation_feedback" type="guide_navigation_feedback" output="screen" />
+	</group>
+	
+	
+	<group if="$(arg rviz)">
+		<include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" />
+	</group>
+</launch>
